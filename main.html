@@ -8,6 +8,50 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h2>Car Insurance Registration Form</h2>
+
+  <form method="POST">
+
+    <!-- Name (Required) -->
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <!-- Email (Required) -->
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Gender (2 Radio Buttons, Required) -->
+    <label>Gender</label><br>
+    <input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Car Brands (Dropdown) -->
+    <label for="cars">Car Brands</label><br>
+    <select id="cars" name="cars">
+      <option value="BMW">BMW</option>
+      <option value="Audi">Audi</option>
+      <option value="Mercedez">Mercedez</option>
+    </select><br><br>
+
+    <!-- Car Age (Required) -->
+    <label for="carage">Car Age</label><br>
+    <input type="number" id="carage" name="carage" required><br><br>
+
+    <!-- Date of Purchase (Required) -->
+    <label for="dop">Date of Purchase</label><br>
+    <input type="date" id="dop" name="dop" required><br><br>
+
+    <!-- Password (Required) -->
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+
+  </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
